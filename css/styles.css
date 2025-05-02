@@ -18,6 +18,14 @@ body {
     box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
+.content::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f39c12;
+}
+
 .header {
     float: left;
     margin-left: -250px;
@@ -76,25 +84,32 @@ body {
     border-bottom: 3px solid #ccc;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: flex-start;
+    
 }
 
 .content-titles {
-    width: 50%;
+    width: 100%;
     font-size: 3em;
     margin-right: 2rem;
+    padding-top: 2rem;
+    text-align: right;
+}
+
+.content-picture {
+    padding-top: 1.5rem;
 }
 
 .content-title--main {
-    font-weight:700
+    font-weight:700;
 }
 
 .content-title--sub {
     color:#ccc;
-    font-weight: 600;
+    font-weight: 650;
     padding-top: 2.5rem;
+    font-size: 90%;
 }
 .content-title {
     max-width: 450px;
