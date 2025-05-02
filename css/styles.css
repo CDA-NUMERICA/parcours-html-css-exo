@@ -116,6 +116,13 @@ body {
   width: 100%;
 }
 
+.picture-desc {
+  position: absolute;
+  bottom: 15px;
+  padding-left: 15px;
+  color: #fff;
+}
+
 .h2-wiki {
   font-size: 2rem;
   font-weight: 500;
@@ -163,10 +170,13 @@ body {
 
 .articles-container {
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
   margin-bottom: 2rem;
+  padding: 15px;
 }
 
 .card-title {
