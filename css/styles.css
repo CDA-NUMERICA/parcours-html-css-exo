@@ -87,6 +87,15 @@ body {
     margin-right: 2rem;
 }
 
+.content-title--main {
+    font-weight:700
+}
+
+.content-title--sub {
+    color:#ccc;
+    font-weight: 600;
+    padding-top: 2.5rem;
+}
 .content-title {
     max-width: 450px;
     margin-left: auto;
