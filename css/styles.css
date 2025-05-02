@@ -319,3 +319,10 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+}
