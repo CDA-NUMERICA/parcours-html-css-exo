@@ -1,5 +1,6 @@
 body {
     background:#eee;
+    font-family:Asap;
 }
 
 * {
@@ -44,14 +45,26 @@ body {
 
 .nav {
     padding: 2rem;
+    
 }
 
 .nav-links {
     margin-top: 2rem;
 }
 
+.nav-item-link{
+    background-color: #ebebeb;
+    padding: 3% 30% 3% 3%;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.pablo{
+    border-bottom: 2px solid #f39c12;
+}
 .nav-item {
     font-size: 1.2rem;
+    margin-bottom: 15%;
 }
 
 .page {
@@ -59,7 +72,7 @@ body {
 }
 
 .content-focus {
-    border-bottom: 3px solid #ccc;
+    border-bottom: 3px solid #646464;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     display: flex;
