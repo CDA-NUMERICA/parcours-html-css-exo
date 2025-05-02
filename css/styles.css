@@ -190,7 +190,12 @@ body {
 
 .btn {
     padding: 1rem 2rem;
+    margin: 2rem 2rem 0 0;
     font-size: 1.2em;
+    border : 4px solid #f39c12;
+    border-radius: 2rem;
+    color : #f39c12;
+    font-weight: bold;
 }
 
 .footer {
