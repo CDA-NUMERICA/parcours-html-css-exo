@@ -74,25 +74,49 @@ body {
 .page {
     padding: 5rem 2rem 2rem;
 }
+.content::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #f39c12;
+}
 
 .content-focus {
     border-bottom: 3px solid #ccc;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    display: grid;
+    justify-content: right;
+    align-items: center;
 }
 
 .content-titles {
-    width: 50%;
+    width: 100%;
     font-size: 3em;
-    margin-right: 2rem;
 }
 
 .content-title {
-    max-width: 450px;
-    margin-left: auto;
+    font-family: "Asap", sans-serif;
+    max-width: 750px;
+}
+
+.content-title--main {
+    padding-top: 2rem;
+    font-family: "Asap", sans-serif;
+    font-size: 1.75em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 2rem;
+    text-align: right;
+}
+
+.content-title--sub {
+    font-family: "Asap", sans-serif;
+    font-size: 1.5em;
+    font-weight: 650;
+    color: #aaa;
+    text-align: right;
 }
 
 .content-picture {
