@@ -189,6 +189,15 @@ body {
 .btn {
     padding: 1rem 2rem;
     font-size: 1.2em;
+    border: 2px solid #f39c12;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: #f39c12;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block; 
 }
 
 .footer {
