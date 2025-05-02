@@ -23,6 +23,8 @@ body {
   width: 250px;
   background: #f5f5f5;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  height: 100%;
 }
 
 .search {
@@ -103,7 +105,7 @@ body {
 }
 
 .content-picture {
-  width: 50%;
+  width: 40%;
   position: relative;
 }
 
@@ -119,7 +121,7 @@ body {
 .picture-desc {
   position: absolute;
   bottom: 0;
-  width: 93.5%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.411);
   color: white;
   padding: 15px;
