@@ -80,15 +80,27 @@ body {
     align-items: flex-start;
 }
 
-.content-titles {
+.content-titles{
     width: 50%;
     font-size: 3em;
     margin-right: 2rem;
+    text-align: end;
+    font-weight: 700;
 }
 
-.content-title {
+.content-title{
+    padding-top: 2rem;
+}
+
+.content-title--main {
     max-width: 450px;
     margin-left: auto;
+    border-top: 3px solid #fc9f00;
+}
+
+.content-title--sub {
+    color: #aaaaaa;
+    margin-left: 10rem;
 }
 
 .content-picture {
