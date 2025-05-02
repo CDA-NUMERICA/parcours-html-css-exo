@@ -94,6 +94,22 @@ body {
     margin-left: auto;
 }
 
+.content-title--main {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.content-title--sub {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #b5a7a7;
+    text-align: right;
+}
+
+
+
 .content-picture {
     width: 50%;
     position: relative;
