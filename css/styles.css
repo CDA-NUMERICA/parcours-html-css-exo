@@ -137,10 +137,14 @@ body {
 
 .articles {
     margin-top: 5rem;
+    
 }
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 30px;
 }
 
 .card {
@@ -164,11 +168,17 @@ body {
 
 .card-footer {
     margin: 2rem 1rem;
+    display: flex;
 }
 
 .btn {
     padding: 1rem 2rem;
+    font-weight: 700;
     font-size: 1.2em;
+    color: #f39c12;
+    margin: 6px;
+    border-radius: 30px;
+    border: solid 3px #f39c12;
 }
 
 .footer {
