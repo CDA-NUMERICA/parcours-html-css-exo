@@ -223,8 +223,7 @@ body {
         max-height: 200px;
     }
     .card-footer{
-        display: flex;
-        justify-content: center;
+        display: flex;   
     }
     .btn{
         width: 50%;
@@ -270,7 +269,6 @@ body {
     }
     .card-footer{
         display: flex;
-        justify-content: center;
     }
     .btn{
         width: 50%;
