@@ -9,19 +9,22 @@ body {
 .container {
     width: 90%;
     margin: auto;
-    padding-left:250px;
-    background:#fff;
-    box-shadow:0 0 5px rgba(0,0,0,.1);
+    padding-left: 250px; /* La même largeur que le header */
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 
 .header {
-    float: left;
-    margin-left: -250px;
-    width: 250px;
-    background: #f5f5f5;
+    position: fixed; /* Fixe le header à la position de l'écran */
+    top: 0; /* En haut de la fenêtre */
+    left: 0; /* À gauche de la fenêtre */
+    width: 250px; /* Largeur du header, à ajuster si besoin */
+    height: 100vh; /* Toute la hauteur de l'écran */
+    background: #f5f5f5; /* Couleur de fond, à garder ou modifier */
     border-right: 1px solid rgba(0,0,0,.1);
+    z-index: 999; /* S'assure qu'il reste au-dessus du contenu */
+    overflow-y: auto; /* Si le contenu dépasse, il sera défilable */
 }
-
 .search {
     padding: 1rem;
     background: #f39c12;
@@ -44,6 +47,7 @@ body {
 
 .nav {
     padding: 2rem;
+   
 }
 
 .nav-links {
@@ -103,6 +107,7 @@ body {
 .content-picture {
     width: 50%;
     position: relative;
+    display: inline-block;
 }
 
 .rounded {
@@ -113,6 +118,17 @@ body {
 .picture {
     width: 50%;
 }
+.picture-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: rgba(61, 59, 59, 0.6);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    opacity: 3;
+  }
 
 .content-quote {
     border-top: 3px solid #ccc;
