@@ -155,10 +155,14 @@ body {
 
 .articles {
     margin-top: 5rem;
+
 }
 
 .articles-container {
     margin-top: 2rem;
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
 }
 
 .card {
