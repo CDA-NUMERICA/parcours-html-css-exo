@@ -55,6 +55,10 @@ body {
 
 .nav-item {
   font-size: 1.2rem;
+  background: rgb(212, 212, 212);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .page {
@@ -79,6 +83,13 @@ body {
 .content-title {
   max-width: 450px;
   margin-left: auto;
+  font-weight: 700;
+}
+
+.content-title--sub {
+  padding-top: 30px;
+  color: rgb(182, 181, 181);
+  font-size: 2.5rem;
 }
 
 .content-picture {
