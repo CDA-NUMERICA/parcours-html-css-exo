@@ -24,6 +24,7 @@ body {
     box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
+
 .header {
     float: left;
     margin-left: -250px;
@@ -62,6 +63,16 @@ body {
 
 .nav-item {
     font-size: 1.2rem;
+    box-sizing : border-box;
+    background : #dddddd;
+    text-transform : uppercase;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-item:first-child {
+    border-bottom: 2px solid #f39c12;
 }
 
 .page {
