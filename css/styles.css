@@ -166,6 +166,10 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    justify-items: center;
 }
 
 .card {
