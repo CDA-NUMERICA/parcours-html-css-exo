@@ -66,13 +66,17 @@ body {
     text-decoration: none; /* Enlever le soulignement si ce sont des liens */
     color: #000; /* Couleur du texte */
     transition: background-color 300ms ease; /* Ajout de la transition pour le fond */
+    width:100%;
 }
 
 .nav-item:hover {
     background-color: orange; /* Couleur de fond au survol */
 }
 .nav-item-link.accueil {
-    border-bottom: 3px solid orange; /* Surlignage orange en dessous du texte */
+    display: inline-block; /* ou block */
+    border-bottom: 3px solid orange;
+    width: 100%;
+
 }
 
 .page {
