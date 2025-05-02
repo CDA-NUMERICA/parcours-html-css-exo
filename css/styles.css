@@ -197,8 +197,15 @@ body {
     border-radius: 50px;
     border-width: 3px;
     border-style: solid;
-    display: inline-block; 
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+.btn:hover {
+        background-color: #f39c12;
+        color: #fff;
 }
+
 
 .footer {
     background: #111;
