@@ -16,6 +16,22 @@ body {
     box-sizing: border-box;
 }
 
+.content-title {
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.content-title--main {
+    border-top: 2px solid #f39c12;
+    padding-top: 20px;
+}
+
+.content-title--sub {
+    color : #bbbbbb;
+    font-size : 0.85em;
+}
+
 .container {
     width: 90%;
     margin: auto;
