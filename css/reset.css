@@ -124,3 +124,13 @@ input, button {
 	border-radius: 10px;
 }
 
+.card-footer > .btn
+{
+	color: #f39c12;
+	border: 3px solid #f39c12;
+	padding: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin: 5px;
+}
+
