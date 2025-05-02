@@ -201,6 +201,10 @@ body {
     font-family: "Asap", sans-serif;
     padding: 1rem 2rem;
     font-size: 1.2em;
+    font-weight: 650;
+    border: solid 4px #f39c12;
+    border-radius: 35px;
+    color: #f39c12;
 }
 
 .footer {
