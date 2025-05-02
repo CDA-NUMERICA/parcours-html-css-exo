@@ -118,9 +118,11 @@ body {
 
 .picture-desc {
   position: absolute;
-  bottom: 15px;
-  padding-left: 15px;
-  color: #fff;
+  bottom: 0;
+  width: 93.5%;
+  background: rgba(0, 0, 0, 0.411);
+  color: white;
+  padding: 15px;
 }
 
 .h2-wiki {
