@@ -64,6 +64,11 @@ body {
     text-transform: uppercase;
 }
 
+.nav-item:hover {
+    transition: 0.3s;
+    background-color: #f39c12;
+}
+
 .nav-item:first-child {
     border-bottom: 3px solid #f39c12;
 }
@@ -179,6 +184,12 @@ body {
     margin: 6px;
     border-radius: 30px;
     border: solid 3px #f39c12;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background-color: #f39c12;
+    color: white;
 }
 
 .footer {
