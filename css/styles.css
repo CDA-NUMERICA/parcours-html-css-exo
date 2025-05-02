@@ -84,11 +84,28 @@ body {
     width: 50%;
     font-size: 3em;
     margin-right: 2rem;
+    border-top: 2px solid #f39c12;
+    
 }
+.content-title--main{
+    font-weight:bold;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}.content-title--sub{
+    font-weight:bold;
+    text-align: right;
+    font-size: 25px;
+    color: #646464;
+}
+
+
 
 .content-title {
     max-width: 450px;
     margin-left: auto;
+    
 }
 
 .content-picture {
@@ -103,6 +120,10 @@ body {
 
 .picture {
     width: 100%;
+}
+
+.wiki{
+    text-align: justify;
 }
 
 .content-quote {
