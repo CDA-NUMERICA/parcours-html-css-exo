@@ -306,4 +306,11 @@ body {
         margin-bottom: 0;
     }
 }
-*/
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+}
