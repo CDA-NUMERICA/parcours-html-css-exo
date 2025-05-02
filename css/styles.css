@@ -53,11 +53,22 @@ body {
 
 .nav-links {
     margin-top: 2rem;
+    
 }
 
 .nav-item {
     font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: rgb(213, 212, 212);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+
 }
+.nav-item:first-child {
+    border-bottom:  3px solid #f39c12;
+}
+
 
 .page {
     padding: 5rem 2rem 2rem;
