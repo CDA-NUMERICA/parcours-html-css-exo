@@ -52,6 +52,23 @@ body {
 
 .nav-item {
     font-size: 1.2rem;
+    text-transform: uppercase; /* Met le texte en majuscule */
+    background-color: #d3d3d3; /* Fond gris clair */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 0.5rem 1rem; /* Un peu d'espace autour du texte */
+    display: inline-block; /* Pour que le fond et les coins arrondis soient visibles */
+    margin-bottom: 0.5rem; /* Espacement entre les liens */
+    text-align: center; /* Centrer le texte si besoin */
+    text-decoration: none; /* Enlever le soulignement si ce sont des liens */
+    color: #000; /* Couleur du texte */
+    transition: background-color 300ms ease; /* Ajout de la transition pour le fond */
+}
+
+.nav-item:hover {
+    background-color: orange; /* Couleur de fond au survol */
+}
+.nav-item-link.accueil {
+    border-bottom: 3px solid orange; /* Surlignage orange en dessous du texte */
 }
 
 .page {
@@ -77,7 +94,12 @@ body {
     max-width: 450px;
     margin-left: auto;
 }
-
+.content-title--main{
+    font-weight: bold;
+}
+.content-title--sub{
+    color: rgb(155, 146, 146);
+}
 .content-picture {
     width: 50%;
     position: relative;
@@ -89,7 +111,7 @@ body {
 }
 
 .picture {
-    width: 100%;
+    width: 50%;
 }
 
 .content-quote {
@@ -122,6 +144,9 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* espace entre les images */
 }
 
 .card {
@@ -148,9 +173,23 @@ body {
 }
 
 .btn {
-    padding: 1rem 2rem;
-    font-size: 1.2em;
-}
+    padding: 1rem 2rem; /* Aération intérieure */
+    font-size: 1.2em; /* Taille de police */
+    border: 2px solid #f39c12; /* Contour orange */
+    color: #f39c12; /* Texte en orange */
+    background-color: transparent; /* Fond transparent pour faire ressortir le contour */
+    border-radius: 30px; /* Coins arrondis pour un style plus doux */
+    margin: 0 10px; /* Espacement horizontal entre les boutons */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce pour l'effet hover */
+  }
+  
+  /* Effet au survol pour plus d'interactivité */
+  .btn:hover {
+    background-color: #f39c12; /* Fond orange au hover */
+    color: #fff; /* Texte blanc au hover */
+    cursor: pointer; /* Curseur pointeur */
+  }
 
 .footer {
     background: #111;
