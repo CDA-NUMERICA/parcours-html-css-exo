@@ -116,6 +116,17 @@ body {
     width: 100%;
 }
 
+.picture-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #11111180;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .content-quote {
     border-top: 3px solid #ccc;
     margin-top: 2rem;
@@ -142,13 +153,13 @@ body {
 
 .articles {
     margin-top: 5rem;
-    
+
 }
 
 .articles-container {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;  
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
@@ -223,7 +234,7 @@ body {
     }
 
     .articles-container {
-      
+
         display:block;
     }
     .card {
