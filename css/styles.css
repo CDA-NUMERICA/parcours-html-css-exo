@@ -68,6 +68,7 @@ body {
 .nav-item--actif {
     box-shadow: 0px 5px 0px 0px #f39c12;
 }
+/*  : active ? pour appliquer le css lorsque l'on est sur la page ? */
 
 .page {
     padding: 5rem 2rem 2rem;
@@ -145,10 +146,14 @@ body {
 
 .articles {
     margin-top: 5rem;
+ 
 }
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
 }
 
 .card {
