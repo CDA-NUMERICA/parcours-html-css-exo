@@ -55,10 +55,16 @@ body {
 
 .nav-item {
   font-size: 1.2rem;
-  background: rgb(212, 212, 212);
+  background: rgb(224, 224, 224);
   text-transform: uppercase;
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Asap", sans-serif;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid#f39c12;
 }
 
 .page {
