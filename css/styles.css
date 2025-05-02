@@ -28,6 +28,7 @@ body {
 }
 
 .search-input {
+    font-family: "Asap", sans-serif;
     padding: .75rem 1rem;
     border: none;
     font-size:1.2em;
@@ -36,6 +37,7 @@ body {
 }
 
 .title {
+    font-family: "Asap", sans-serif;
     font-size: 2em;
     font-weight: bold;
     border-bottom:3px solid #f39c12;
@@ -98,11 +100,13 @@ body {
 }
 
 .content p {
+    font-family: "Asap", sans-serif;
     font-size: 1.1em;
     line-height: 1.5;
 }
 
 .content h3 {
+    font-family: "Asap", sans-serif;
     font-size: 1.7em;
     font-weight: bold;
     margin-top: 2rem;
@@ -110,6 +114,7 @@ body {
 }
 
 .content ol {
+    font-family: "Asap", sans-serif;
     list-style-type: decimal;
     font-size: 1.1em;
     margin-left: 1.5em;
@@ -129,6 +134,7 @@ body {
 }
 
 .card-title {
+    font-family: "Asap", sans-serif;
     margin: 2rem 1rem;
     font-size: 1.7em;
     font-weight: bold;
@@ -139,6 +145,7 @@ body {
 }
 
 .card-content p {
+    font-family: "Asap", sans-serif;
     font-size: 1.1em;
     line-height: 1.5;
 }
@@ -148,6 +155,7 @@ body {
 }
 
 .btn {
+    font-family: "Asap", sans-serif;
     padding: 1rem 2rem;
     font-size: 1.2em;
 }
