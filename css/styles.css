@@ -177,11 +177,17 @@ body {
 
 .card-footer {
     margin: 2rem 1rem;
-}
+    color: #f39c12;
+    font-weight: 800;
+    display: flex;
+    gap : 1rem;
 
 .btn {
     padding: 1rem 2rem;
     font-size: 1.2em;
+    border: solid 4px #f39c12;
+    border-radius: 30px;
+}
 }
 
 .footer {
