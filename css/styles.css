@@ -113,9 +113,26 @@ body {
   width: 100%;
 }
 
+.h2-wiki {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-wiki {
+  padding-top: 30px;
+}
+
+.travaux-li {
+  padding-top: 5px;
+  padding: 10px;
+}
+
 .content-quote {
-  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
   margin-top: 2rem;
+  font-weight: 600;
 }
 
 .content p {
