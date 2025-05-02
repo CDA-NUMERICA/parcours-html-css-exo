@@ -13,6 +13,7 @@ body {
     box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 .header {
+    position: fixed;
     float: left;
     margin-left: -250px;
     width: 250px;
@@ -50,6 +51,10 @@ body {
     padding-bottom: 25%;
     flex: 1;
 
+}
+.nav-item-link:hover{
+    background-color: #f39c12;
+    color: #fff;
 }
 .nav-item-link{
     background-color: #e9e8e8;
@@ -109,8 +114,23 @@ body {
 }
 
 .picture {
-    width: 50%;
+    width: 90%;
 }
+.picture1 {
+    width: 130%;
+}
+
+.picture-desc{
+    position: relative;
+    background-color: #1111119a;
+    color: #fff;
+    padding: 5px 3% 5px 30px;
+    margin: -10.5% 10% 0% -5%;
+   
+
+}
+
+
 
 .content-quote {
     border-top: 3px solid #ccc;
@@ -142,6 +162,8 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
 }
 
 .card {
@@ -153,8 +175,8 @@ body {
     font-size: 1.7em;
     font-weight: bold;
 }
-.texte--lion{
-    margin: 0% 46.8% 0% 0%;
+.texte--animaux{
+    margin: 0% 5% 0% 0%;
 }
 .card-content {
     padding: 0 1rem;
@@ -176,7 +198,19 @@ body {
     border-radius: 50px;
     padding: 20px 30px 20px 30px;
     color: #f39c12;
+    margin-right: 10%;
 }
+.btn1 {
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+    border: 4px solid #f39c12;
+    border-radius: 50px;
+    padding: 20px 30px 20px 30px;
+    color: #f39c12;
+    margin-right: 10%;
+    margin: 0% 0% 0% 0%;
+}
+
 
 .footer {
     background: #111;
@@ -185,10 +219,17 @@ body {
     color: #aaa;
 }
 
+
+
+
+
+
+
+
 /*
     Styles pour les écrans de moins de 1200px de large :
 */
-/*
+@media (max-width:1200px){
 
     .content-focus {
         display:block;
@@ -215,13 +256,13 @@ body {
     .card {
         width:auto;
     }
+}
 
-*/
 
 /*
     Styles pour les écrans de moins de 900px de large :
 */
-/*
+@media (max-width:900px){
     .header {
         position:static;
         width:auto;
@@ -251,7 +292,7 @@ body {
     }
 
     .nav-item {
-        width:calc(33.3333% - .5rem);
+        display: inline;
         text-align: center;
     }
 
@@ -259,4 +300,6 @@ body {
         margin-bottom: 0;
     }
 
-*/
+}
+    
+
