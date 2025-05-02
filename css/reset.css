@@ -72,3 +72,24 @@ html {
 input, button {
 	outline: 0;
 }
+
+.nav-links > li {
+	border-radius: 10px;
+	background-color: #888;
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+.nav-item-link, .nav-item
+{
+	text-transform: uppercase;
+	
+}
+
+.nav-links > .nav-item--accueil
+{
+	border-bottom: 2px solid orange;
+}
+
+
