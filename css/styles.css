@@ -156,10 +156,14 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
 .card {
     margin-bottom: 2rem;
+   
 }
 
 .card-title {
@@ -179,11 +183,17 @@ body {
 
 .card-footer {
     margin: 2rem 1rem;
+    
 }
 
 .btn {
     padding: 1rem 2rem;
     font-size: 1.2em;
+    color: #f39c12;
+    border: solid #f39c12 4px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 .footer {
