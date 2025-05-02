@@ -55,16 +55,19 @@ body {
 
 .nav-item {
   font-size: 1.2rem;
-  background: rgb(224, 224, 224);
+  background: rgb(236, 236, 236);
   text-transform: uppercase;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
   font-family: "Asap", sans-serif;
+  border-bottom: 2px solid#f39c12;
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid#f39c12;
+  background: #f39c12;
+  transition: 0.3s;
+  color: #fff;
 }
 
 .page {
@@ -192,6 +195,12 @@ body {
   color: #f39c12;
   border: 5px solid #f39c12;
   border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: #f39c12;
+  color: #fff;
+  transition: 0.3s;
 }
 
 .footer {
