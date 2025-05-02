@@ -92,4 +92,16 @@ input, button {
 	border-bottom: 2px solid orange;
 }
 
+.content-title--main
+{
+	color: black;
+	margin-bottom: 20px;
+}
+
+.content-title--sub
+{
+	color: gray;
+	margin-bottom: 20px;
+}
+
 
