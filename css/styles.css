@@ -6,6 +6,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: "Asap", sans-serif;
 }
 
 .container {
@@ -47,14 +48,24 @@ body {
 .nav {
     padding: 2rem;
 }
-
 .nav-links {
     margin-top: 2rem;
 }
-
 .nav-item {
+    text-transform: uppercase;
     font-size: 1.2rem;
+    background-color: #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
 }
+.nav-item-link{
+    font-family: "Asap";
+}
+.nav-item:first-child{
+    border-bottom: 2px solid #fc9f00;
+}
+
 
 .page {
     padding: 5rem 2rem 2rem;
