@@ -54,6 +54,21 @@ body {
 
 .nav-item {
     font-size: 1.2rem;
+    background-color: #ddd;
+    padding: 1rem;
+    margin-bottom: 0.35rem;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 500;;
+}
+
+.nav-item:first-child {
+    border-bottom: 3px solid #f39c12;
+}
+
+.nav-links {
+    font-family: "Asap", sans-serif;
+    text-transform: uppercase;
 }
 
 .page {
