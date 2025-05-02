@@ -9,6 +9,7 @@
 	font-family: Asap;
 }
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -81,6 +82,12 @@ input, button {
 	
 }
 
+.nav-links > li:hover
+{
+	background-color: orange;
+	transition: 0.3s;
+}
+
 .nav-item-link, .nav-item
 {
 	text-transform: uppercase;
@@ -134,3 +141,9 @@ input, button {
 	margin: 5px;
 }
 
+.card-footer > .btn:hover
+{
+	background-color: orange;
+	color: white;
+	transition: 0.3s
+}
