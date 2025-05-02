@@ -61,6 +61,7 @@ body {
     margin: 6px;
     background-color: #dadcdd;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .nav-item:first-child {
@@ -89,6 +90,11 @@ body {
 .content-title {
     max-width: 450px;
     margin-left: auto;
+}
+
+.content-title--sub {
+    color: #aaa;
+    margin-top: 35px;
 }
 
 .content-picture {
