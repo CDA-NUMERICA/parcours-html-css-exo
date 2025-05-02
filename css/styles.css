@@ -182,10 +182,6 @@ border-bottom-right-radius: 10px;
     margin-top: 2rem;
 }
 
-.card {
-   
-}
-
 .articles-container {
     margin-bottom: 2rem;
     display: grid;
@@ -240,11 +236,8 @@ border-bottom-right-radius: 10px;
     color: #aaa;
 }
 
-/*
-    Styles pour les écrans de moins de 1200px de large :
-*/
-/*
 
+@media (max-width: 1200px) {
     .content-focus {
         display:block;
     }
@@ -270,13 +263,11 @@ border-bottom-right-radius: 10px;
     .card {
         width:auto;
     }
+}
 
-*/
+@media (max-width: 900px) {
+    
 
-/*
-    Styles pour les écrans de moins de 900px de large :
-*/
-/*
     .header {
         position:static;
         width:auto;
@@ -314,4 +305,4 @@ border-bottom-right-radius: 10px;
         margin-bottom: 0;
     }
 
-*/
+}
